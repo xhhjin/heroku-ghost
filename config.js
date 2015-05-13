@@ -12,18 +12,16 @@ config = {
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
-        // ```
-        //  mail: {
-        //      transport: 'SMTP',
-        //      options: {
-        //          service: 'Mailgun',
-        //          auth: {
-        //              user: '', // mailgun username
-        //              pass: ''  // mailgun password
-        //          }
-        //      }
-        //  },
-        // ```
+        mail: {
+            transport: 'SMTP',
+            options: {
+                service: 'SendGrid',
+                auth: {
+                    user: process.env.MAIL_USER,
+                    pass: process.env.MAIL_PASSWORD,
+                }
+            }
+        },
 
         database: {
             client: 'sqlite3',
