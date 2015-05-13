@@ -15,9 +15,9 @@ config = {
         mail: {
             transport: 'SMTP',
             options: {
-                host: 'in-v3.mailjet.com',
-                port: 587,
-                service: 'MailJet',
+                host: 'smtp.yeah.net',
+                port: 25,
+                service: 'Yeah',
                 auth: {
                     user: process.env.MAIL_USER,
                     pass: process.env.MAIL_PASSWORD,
