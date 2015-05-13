@@ -13,7 +13,7 @@ config = {
         url: 'http://ghost.xuhehuan.com',
         mail: {},
         database: {
-            client: 'sqlite3',
+            client: 'postgres',
             connection: {
                 host: process.env.POSTGRES_HOST,
                 user: process.env.POSTGRES_USER,
