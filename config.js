@@ -15,9 +15,9 @@ config = {
         mail: {
             transport: 'SMTP',
             options: {
-                host: 'smtp.yeah.net',
+                host: 'smtp.sendgrid.net',
                 port: 25,
-                service: 'Yeah',
+                service: 'SendGrid',
                 auth: {
                     user: process.env.MAIL_USER,
                     pass: process.env.MAIL_PASSWORD,
