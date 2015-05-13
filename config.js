@@ -15,14 +15,14 @@ config = {
         mail: {
             transport: 'SMTP',
             options: {
-                host: 'smtp.163.com',
-                port: 25,
-                service: 'NetEase',
+                host: 'in-v3.mailjet.com',
+                port: 587,
+                service: 'MailJet',
                 auth: {
                     user: process.env.MAIL_USER,
                     pass: process.env.MAIL_PASSWORD,
+                    fromaddress: process.env.MAIL_FROM,
                 }
-				fromaddress: process.env.MAIL_FROM,
             }
         },
 
