@@ -15,7 +15,9 @@ config = {
         mail: {
             transport: 'SMTP',
             options: {
-                service: 'SendGrid',
+                host: 'smtp.163.com',
+                port: 25,
+                service: 'NetEase',
                 auth: {
                     user: process.env.MAIL_USER,
                     pass: process.env.MAIL_PASSWORD,
