@@ -21,8 +21,8 @@ config = {
                 auth: {
                     user: process.env.MAIL_USER,
                     pass: process.env.MAIL_PASSWORD,
-                    fromaddress: process.env.MAIL_FROM,
                 }
+				fromaddress: process.env.MAIL_FROM,
             }
         },
 
