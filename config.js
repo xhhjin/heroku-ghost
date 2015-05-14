@@ -12,7 +12,7 @@ config = {
         privacy: {
         	useUpdateCheck: false,
         	useGoogleFonts: false
-        }
+        },
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
