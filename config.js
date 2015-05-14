@@ -10,7 +10,7 @@ config = {
         // The url to use when providing links to the site, E.g. in RSS and email.
         url: 'http://ghost.xuhehuan.com',
         privacy: {
-        	useUpdateCheck: false
+        	useUpdateCheck: false,
         	useGoogleFonts: false
         }
 
