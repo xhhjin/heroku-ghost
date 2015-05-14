@@ -9,7 +9,10 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         url: 'http://ghost.xuhehuan.com',
-	UpdateCheck: false;
+        privacy: {
+        	useUpdateCheck: false
+        	useGoogleFonts: false
+        }
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
